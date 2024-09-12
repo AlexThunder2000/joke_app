@@ -86,7 +86,7 @@ class JokeScreen extends StatelessWidget {
                       const SizedBox(height: 10),
                       Text(
                         state.joke.punchline,
-                        style: Theme.of(context).textTheme.bodyMedium!.copyWith(fontStyle: FontStyle.italic),
+                        style: Theme.of(context).textTheme.bodyMedium,
                         textAlign: TextAlign.center,
                       ),
                       const SizedBox(height: 20),

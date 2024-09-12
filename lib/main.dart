@@ -22,7 +22,6 @@ class MyApp extends StatelessWidget {
         textTheme: const TextTheme(
           bodyLarge: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
           bodyMedium: TextStyle(color: Colors.white70, fontSize: 18),
-          bodySmall: TextStyle(color: Colors.white70, fontSize: 16),
         ),
         buttonTheme: ButtonThemeData(
           shape: RoundedRectangleBorder(
